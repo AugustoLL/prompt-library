@@ -22,8 +22,8 @@ A web application built using Vite, React, TypeScript, and Material UI. The app 
 
 1. Clone the repository:
 ```sh
-git clone 
-cd 
+git clone https://github.com/AugustoLL/prompt-library
+cd prompt-library
 ```
 
 2. Install dependencies:
