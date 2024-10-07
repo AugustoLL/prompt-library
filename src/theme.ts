@@ -1,25 +1,30 @@
 import { createTheme } from '@mui/material/styles';
 
+// https://coolors.co/palettes/popular/coffee
+
 const theme = createTheme({
   palette: {
     primary: {
-      main: '#1976d2',
+      main: '#a56236',
     },
     secondary: {
-      main: '#ff4081',
+      main: '#a53641',
     },
   },
   typography: {
-    fontFamily: 'Roboto, Arial, sans-serif',
-    // h1: {
-    //   fontSize: '2.5rem',
-    // },
-    // h2: {
-    //   fontSize: '2rem',
-    // },
-    // button: {
-    //   textTransform: 'none', 
-    // },
+    fontFamily: 'Inter, Roboto, Arial, sans-serif',
+    h1: {
+      fontFamily: 'Playfair Display, serif',
+    },
+    h2: {
+      fontFamily: 'Playfair Display, serif',
+    },
+    body1: {
+      fontFamily: 'Inter, sans-serif',
+    },
+    body2: {
+      fontFamily: 'Inter, sans-serif',
+    },
   },
   // components: {
   //   MuiButton: {
